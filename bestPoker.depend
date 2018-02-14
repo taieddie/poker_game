@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1446671344 source:c:\users\eddie\desktop\c++\bestpoker\main.cpp
+	<iostream>
+
+1500470913 source:c:\users\eddie\desktop\c++\bestpoker\src\hand.cpp
+	"Hand.h"
+	<iostream>
+	<algorithm>
+
+1500436973 c:\users\eddie\desktop\c++\bestpoker\include\hand.h
+	"Card.h"
+	<vector>
+	<string>
+
+1500362610 source:c:\users\eddie\desktop\c++\bestpoker\src\pokerhand.cpp
+	"PokerHand.h"
+
+1500362655 c:\users\eddie\desktop\c++\bestpoker\include\pokerhand.h
+	"Hand.h"
+
+1500472781 source:c:\users\eddie\desktop\c++\bestpoker\src\pokerplayer.cpp
+	"PokerPlayer.h"
+	<iostream>
+	<dirent.h>
+	<stdio.h>
+	<regex>
+	<fstream>
+	<algorithm>
+	<string>
+	<sstream>
+	<cctype>
+	<algorithm>
+
+1500472077 source:c:\users\eddie\desktop\c++\bestpoker\src\card.cpp
+	"Card.h"
+
+1500470944 c:\users\eddie\desktop\c++\bestpoker\include\card.h
+	<string>
+
+1500472794 c:\users\eddie\desktop\c++\bestpoker\include\pokerplayer.h
+	<vector>
+	<string>
+	"Hand.h"
+
+1500472805 source:c:\users\eddie\desktop\c++\bestpoker\src\unittester.cpp
+	"Hand.h"
+	<vector>
+	<iostream>
+	<string>
+
+1500530415 source:c:\users\eddie\downloads\game\poker_game\src\card.cpp
+	"Card.h"
+
+1500530415 c:\users\eddie\downloads\game\poker_game\include\card.h
+	<string>
+
+1500530415 source:c:\users\eddie\downloads\game\poker_game\src\hand.cpp
+	"Hand.h"
+	<iostream>
+	<algorithm>
+
+1500530415 c:\users\eddie\downloads\game\poker_game\include\hand.h
+	"Card.h"
+	<vector>
+	<string>
+
+1500530415 source:c:\users\eddie\downloads\game\poker_game\src\unittester.cpp
+	"Hand.h"
+	<vector>
+	<iostream>
+	<string>
+
+1500530415 source:c:\users\eddie\downloads\game\poker_game\src\pokerplayer.cpp
+	"PokerPlayer.h"
+	<iostream>
+	<dirent.h>
+	<stdio.h>
+	<regex>
+	<fstream>
+	<algorithm>
+	<string>
+	<sstream>
+	<cctype>
+	<algorithm>
+
+1500530415 c:\users\eddie\downloads\game\poker_game\include\pokerplayer.h
+	<vector>
+	<string>
+	"Hand.h"
+

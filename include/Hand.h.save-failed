@@ -1,0 +1,47 @@
+#include "Card.h"
+#include <vector>
+
+using namespace std;
+
+class Hand
+{
+
+        enum Rank
+        {
+        ROYAL_FLUSH,
+        STRAIGHT_FLUSH,
+        FOUR_OF_A_KIND,
+        FULL_HOUSE,
+        FLUSH,
+        STRAIGHT,
+        THREE_OF_A_KIND,
+        TWO_PAIR,
+        ONE_PAIR,
+        HIGH_CARD,
+        NO_RANK
+        };
+
+        const int NUMBER_OF_CARD_VALUES = 14;
+
+        typedef struct RankAndKickers
+        {
+            Rank bestRank;
+            vector<Card> kickers;
+        }RankAndKickers;
+
+    public:
+        Hand(vector<Card> cards);
+        Rank getBestFiveHandCategory();
+        void printFiveHandCategory();
+        virtual ~Hand();
+
+    protected:
+        //vector<Card> cards_;
+    private:
+        vector<Card> cards_;
+
+        bool findStraight (int cardCount[], int& outHighestStraight, int maxIndex);
+        int getHandValue();
+};
+
+
